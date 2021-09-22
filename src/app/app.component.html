@@ -1,0 +1,17 @@
+<div class="nav-item" style="padding-left:0.2in">
+        <a class="btn btn-primary" (click)="changeSection(1)">Actor</a>
+        <a class="btn btn-primary" (click)="changeSection(2)">Movie</a>
+</div>
+
+  <div class="section" *ngIf="section==1">
+    <app-actor></app-actor>
+  </div>
+
+  <div class="section" *ngIf="section==2">
+    <app-movie></app-movie>
+  </div>
+      
+
+
+
+     
